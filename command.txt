@@ -1,0 +1,46 @@
+Now im going to save all the commands here in the text format so that i can remember them easily
+1] to see present directory :-pwd
+2] to see the files in that directory :- ls
+   1} ls -a:- Gives you hidden files
+   2} ls -l :-Gives you all details of tghe files
+   
+3] To make new directory
+    mkdir name(you can create many at a time just use space ex mkdir a aaa aaaaa)
+4] to change  a directory
+     cd name
+5] to come back from the dorectory
+    cd ..
+6] to make files(use vent)
+  1} to make empty files 
+      touch name
+      * you can make multiple files in single touch code just use (ex space touch name.txt file.html create.css)
+      *
+   2}echo " write whatever you want to create">>filename
+   3} nano filename
+       it opens the file in the editor write content and then save it using cntrl c and to exit press cntrl x
+   4} vi filename 
+      goes in editor then press i start inserting content last press esc then :wq
+      after exiting again if you want to insert again vi command
+7] to delete a file
+     rm filename
+8] to delet directory
+   1}to delete empty directory
+   rmdir dirname
+
+   2} to delete directory with files
+      rm -r name
+   3} to delete a file forcefully
+      rm -fname
+9] to rename a file
+    mv firstname newname
+10] to see the content in file
+     cat filename
+11] to print something on terminal
+    echo "hiii you can type anything you want",just use this syntax
+      it write directy on terminal
+12] to write directly in file without opening  terminal
+  cat>> command.txt
+  write the content 
+to exit this command press enter and then cntrl c
+
+13] 
